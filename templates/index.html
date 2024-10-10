@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Stock Dashboard</h1>
+
+    <table id="stockTable">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Symbol</th>
+                <th>QOH</th>
+                <th>Average Price</th>
+                <th>Last Price</th>
+                <th>Last Updated</th>
+                <th>Change</th>
+                <th>Percentage Change</th>
+                <th>Previous Close</th>
+                <th>Open Price</th>
+                <th>Day High</th>
+                <th>Day Low</th>
+                <th>52 Week High</th>
+                <th>52 Week Low</th>
+                <th>Average Value</th>
+                <th>Current Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Stock data will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+
+    <!-- Corrected summary row with 16 columns -->
+    <table>
+        <tfoot>
+            <tr>
+                <td colspan="14" style="text-align: right; font-weight: bold;">Summary:</td>
+                <td style="text-align: right; font-weight: bold;" id="averageValueSum">0</td>
+                <td style="text-align: right; font-weight: bold;" id="currentValueSum">0</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

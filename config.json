@@ -1,0 +1,94 @@
+{
+  "stock_symbols": [
+    {
+      "symbol": "COALINDIA",
+      "quantity_available": 20,
+      "average_price": 408.47
+    },
+    {
+      "symbol": "GREENPOWER",
+      "quantity_available": 116,
+      "average_price": 25.49
+    },
+        {
+      "symbol": "HDFCBANK",
+      "quantity_available": 10,
+      "average_price": 1538.25
+    },
+    {
+      "symbol": "IFCI",
+      "quantity_available": 93,
+      "average_price": 45.37
+    },
+    {
+      "symbol": "IOC",
+      "quantity_available": 25,
+      "average_price": 140.27
+    },
+    {
+      "symbol": "ITC",
+      "quantity_available": 10,
+      "average_price": 463.00
+    },
+    {
+      "symbol": "JIOFIN",
+      "quantity_available": 10,
+      "average_price": 256.40
+    },
+    {
+      "symbol": "LTF",
+      "quantity_available": 29,
+      "average_price": 164.76
+    },
+    {
+      "symbol": "MARKSANS",
+      "quantity_available": 10,
+      "average_price": 152.55
+    },
+    {
+      "symbol": "ONGC",
+      "quantity_available": 10,
+      "average_price": 162.00
+    },
+    {
+      "symbol": "POWERGRID",
+      "quantity_available": 5,
+      "average_price": 256.75
+    },
+    {
+      "symbol": "SBIN",
+      "quantity_available": 5,
+      "average_price": 648.00
+    },
+    {
+      "symbol": "STARHEALTH",
+      "quantity_available": 15,
+      "average_price": 721.73
+    },
+    {
+      "symbol": "SUZLON",
+      "quantity_available": 15,
+      "average_price": 47.45
+    },
+    {
+      "symbol": "TATAPOWER",
+      "quantity_available": 10,
+      "average_price": 361.03
+    },
+    {
+      "symbol": "WIPRO",
+      "quantity_available": 20,
+      "average_price": 371.33
+    },
+    {
+      "symbol": "YESBANK",
+      "quantity_available": 110,
+      "average_price": 16.55
+    }
+  ],
+  "refresh_interval_minutes": 15
+}
+
+
+
+
